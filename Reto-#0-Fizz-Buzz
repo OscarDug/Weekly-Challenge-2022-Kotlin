@@ -1,0 +1,15 @@
+
+public class operacionTernaria {
+
+    public static void main(String[] args) {
+        for (int num = 1; num <= 100; num++) {
+            var div3 = num % 3 == 0;
+            var div5 = num % 5 == 0;
+            String resul;
+            resul = (div3 && div5) ? "FIZZBUZZ" : div3 ? "Fizz" : div5 ? "Buzz" :"";
+            System.out.println(num + "  " + resul);
+
+        }
+
+    }
+}
